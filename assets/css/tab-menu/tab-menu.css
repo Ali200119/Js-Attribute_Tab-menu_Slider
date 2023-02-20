@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+main .container {
+  width: 20%;
+}
+main .container .tab {
+  background-color: gray;
+}
+main .container .tab .menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+main .container .tab .menu button {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+main .container .tab .menu .active {
+  background-color: black;
+}
+main .container .tab .content {
+  margin-top: 20px;
+}
+main .container .tab .content p {
+  color: white;
+  padding: 15px;
+  display: none;
+}
+main .container .tab .content .active {
+  display: block;
+}/*# sourceMappingURL=tab-menu.css.map */
